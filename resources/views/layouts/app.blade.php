@@ -1,3 +1,5 @@
+<!-- struktur utama dalam website secara keseluruhan -->
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -16,7 +18,8 @@
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
-            @include('layouts.navigation')
+            <!-- untuk menu layoutnya -->
+            @include('layouts.navigation') 
 
             <!-- Page Heading -->
             @isset($header)
@@ -27,7 +30,7 @@
                 </header>
             @endisset
 
-            <!-- Page Content -->
+            <!-- Main Content -->
             <main>
                 {{ $slot }}
             </main>
