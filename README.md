@@ -86,9 +86,8 @@ Database
 Praktikum 15 Maret 2025
 Terminal
 ![Screenshot 2025-03-15 155209](https://github.com/user-attachments/assets/c3782a13-58de-4ccf-8a25-ec6b653e554e)
-![Screenshot 2025-03-15 164436](https://github.com/user-attachments/assets/a7119236-
+![Screenshot 2025-03-15 164436](https://github.com/user-attachments/assets/a7119236-2e97-406c-8bea-f2ced41b620c)
 ![Screenshot 2025-03-15 162631](https://github.com/user-attachments/assets/ff8026b3-2985-4cdd-82a2-ea66e9794a82)
-2e97-406c-8bea-f2ced41b620c)
 ![Screenshot 2025-03-15 162641](https://github.com/user-attachments/assets/bf5c2877-ee56-4de7-ac89-4147e86e58f9)
 
 Tampilan Website 
