@@ -23,10 +23,10 @@ class User extends Authenticatable
         'password',
     ];
 
-    //untuk menambahkan relasi
-    // public function todo(){
-    //     return $this->hasMany(Todo::class);
-    // }
+    // untuk menambahkan relasi
+    public function todo(){
+        return $this->hasMany(Todo::class);
+    }
 
     
     /**
