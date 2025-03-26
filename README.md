@@ -96,3 +96,19 @@ Praktikum 15-03-2025
 
 ![Screenshot 2025-03-15 162828](https://github.com/user-attachments/assets/b115b656-ffa8-4dfa-8c3e-4185b0a730c1)
 
+Praktikum 20-03-2025
+![Screenshot 2025-03-26 122942](https://github.com/user-attachments/assets/1381b035-f26f-4577-a1d2-5a706b5a727f)
+
+![Screenshot 2025-03-26 122918](https://github.com/user-attachments/assets/8e7a9e7f-64da-4c97-b50d-dc11ffedb146)
+
+![Screenshot 2025-03-26 122858](https://github.com/user-attachments/assets/f326d826-b2d1-4ad8-958f-49b582d076c0)
+
+![Screenshot 2025-03-26 122827](https://github.com/user-attachments/assets/043aef46-a321-471c-8de0-8b7a1e923fb7)
+
+![Screenshot 2025-03-26 122814](https://github.com/user-attachments/assets/e70c7f8d-6605-422a-867d-189120da7ef2)
+
+![Screenshot 2025-03-26 123108](https://github.com/user-attachments/assets/2ecd5d40-3ad3-4927-b5c5-c4df36e61d38)
+
+![Screenshot 2025-03-26 123130](https://github.com/user-attachments/assets/29339e3d-9224-4ee6-a7ab-98cfffae03f2)
+
+![Screenshot 2025-03-26 123119](https://github.com/user-attachments/assets/0bbe11ec-0607-4b7f-8e51-0332e44d9eca)
