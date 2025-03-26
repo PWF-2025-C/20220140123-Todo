@@ -82,3 +82,17 @@ Browser
 Database
 ![Screenshot 2025-03-08 162407](https://github.com/user-attachments/assets/a3d510c8-8480-413e-b45a-d309582a2f2b)
 
+
+Praktikum 15-03-2025
+![Screenshot 2025-03-15 155209](https://github.com/user-attachments/assets/835818d1-b51d-4fb0-95b1-98b16b7862fb)
+
+![Screenshot 2025-03-15 164436](https://github.com/user-attachments/assets/465f1b60-40de-4050-a6e5-f6e55cf4b51f)
+
+![Screenshot 2025-03-15 162631](https://github.com/user-attachments/assets/1fba8219-4a9c-49f3-9800-b109bd08aac1)
+
+![Screenshot 2025-03-15 162641](https://github.com/user-attachments/assets/803b5063-9675-4e57-a502-b4052374e2f3)
+
+![Screenshot 2025-03-15 162819](https://github.com/user-attachments/assets/8d0b75dd-c262-4774-a683-becbaa1a99df)
+
+![Screenshot 2025-03-15 162828](https://github.com/user-attachments/assets/b115b656-ffa8-4dfa-8c3e-4185b0a730c1)
+
