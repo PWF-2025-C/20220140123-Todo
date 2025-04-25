@@ -24,7 +24,7 @@ class User extends Authenticatable
     ];
 
     // untuk menambahkan relasi
-    public function todo(){
+    public function todos(){
         return $this->hasMany(Todo::class);
     }
 

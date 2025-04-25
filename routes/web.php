@@ -20,10 +20,20 @@ Route::middleware('auth')->group(function () {
 });
 
 
-Route::get('/todo', [TodoController::class, 'view'])->name('todo.view');
-Route::get('/todo/create', [TodoController::class, 'create'])->name('todo.create');
-Route::get('/todo/edit', [TodoController::class, 'edit'])->name('todo.edit');
+// Route::get('/todo', [TodoController::class, 'index'])->name('todo.view');
+
+// Route::get('/todo/create', [TodoController::class, 'create'])->name('todo.create');
+// // Route::get('/todo/edit', [TodoController::class, 'edit'])->name('todo.edit');
+
+Route::get('/todo', [TodoController::class, 'index'])->name('todo.index');
+
+// Menyimpan todo baru
+Route::post('/todo', [TodoController::class, 'store'])->name('todo.store');
 
 Route::get('/user', [UserController::class, 'index'])->name('user.index');
 
+
+Route::resource('todo', TodoController::class)->except(['show']);
+
 require __DIR__.'/auth.php';
+
