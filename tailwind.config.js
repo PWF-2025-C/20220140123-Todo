@@ -18,4 +18,32 @@ export default {
     },
 
     plugins: [forms],
+
+    safelist: [
+        // Soft background colors
+        'bg-blue-600',
+        'bg-green-600',
+        'bg-green-900',
+        'bg-gray-300',
+        'bg-gray-400',
+        'bg-indigo-900',
+
+        // Soft text colors
+        'text-white',
+        'text-black',
+        'text-blue-400',
+        'text-green-400',
+        'text-red-400',
+        'text-red-600',
+
+        // Hover states
+        {
+            pattern: /bg-(blue|green|red)-(500|600|700)/,
+            variants: ['hover'],
+        },
+        {
+            pattern: /text-(white|blue|green|red)-(300|400|500|600)/,
+            variants: ['hover'],
+        },
+    ],
 };
