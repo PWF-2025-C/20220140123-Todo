@@ -38,10 +38,12 @@ Route::patch('/todo/{todo}', [TodoController::class, 'update'])->name('todo.upda
 Route::patch('/todo/{todo}/complete', [TodoController::class, 'complete'])->name('todo.complete');
 Route::patch('/todo/{todo}/uncomplete', [TodoController::class, 'uncomplete'])->name('todo.uncomplete');
 
+Route::middleware(['auth', 'admin'])->group(function () {
 Route::get('/user', [UserController::class, 'index'])->name('user.index');
 Route::patch('/user/{user}/makeadmin', [UserController::class, 'makeadmin'])->name('user.makeadmin');
 Route::patch('/user/{user}/removeadmin', [UserController::class, 'removeadmin'])->name('user.removeadmin');
 Route::delete('/user/{user}', [UserController::class, 'destroy'])->name('user.destroy');
+});
 
 // Route::resource('todo', TodoController::class)->except(['show']);
 
