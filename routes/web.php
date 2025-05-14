@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TodoController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\CategoryController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -17,6 +18,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::resource('category', CategoryController::class);
+
 });
 
 
@@ -44,6 +47,7 @@ Route::patch('/user/{user}/makeadmin', [UserController::class, 'makeadmin'])->na
 Route::patch('/user/{user}/removeadmin', [UserController::class, 'removeadmin'])->name('user.removeadmin');
 Route::delete('/user/{user}', [UserController::class, 'destroy'])->name('user.destroy');
 });
+
 
 // Route::resource('todo', TodoController::class)->except(['show']);
 
